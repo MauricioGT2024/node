@@ -1,0 +1,12 @@
+POST http://localhost:4444/inscripcion
+Content-Type: application/json
+
+
+{
+    "nonbre":"mauri",
+    "apellido":"sierra",
+    "dni": 113123,
+    "stage": 1,
+    "nacimiento": "2005-12-18",
+    "genero":"m"
+}
