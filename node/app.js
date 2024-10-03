@@ -1,6 +1,6 @@
 const process = require("process")
 const express = require("express")
-const { validarAlumno } = require("../schemas/alumno")
+const { validarAlumno } from "./schemas/alumno"
 const fs = require("node:fs/promises")
 const port = process.env.port || 4444
 
